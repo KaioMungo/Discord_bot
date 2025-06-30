@@ -3,7 +3,7 @@ from discord.ext import commands
 import requests
 import os
 
-API_KEY = os.getenv('a4f15e87b6b47b08e9489bd59ee2b3ab')
+API_KEY = os.getenv('SEU_API_KEY_WEATHER')
 
 class Tempo(commands.Cog):
     def __init__(self, bot):
